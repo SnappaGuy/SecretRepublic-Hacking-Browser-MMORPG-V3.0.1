@@ -1,4 +1,4 @@
-# SecretRepublic - MMORPG Browser Based Futuristic PHP Hacker Game
+# SecretRepublic - MMORPG Browser Based Futuristic Hacker Game
 
 <p align="center">
 
