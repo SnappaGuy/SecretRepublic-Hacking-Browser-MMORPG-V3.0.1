@@ -48,11 +48,11 @@ Audio Trailer: https://www.youtube.com/watch?v=6thfiGb-b7c
 
 # Overview
 
-Built from the ground up by a fairely inexperienced software developer at the time.
+Built from the ground up by a fairly inexperienced software developer at the time.
 
 It's been through years of development with this being its 3rd full do-over.
 
-A PHP & MySQL based browser based, mobile compatible, role playing game. The theme is post-apocalyptic futuristic hacking.
+A PHP & MySQL based browser based, mobile compatible, role playing game where the is post-apocalyptic futuristic hacking.
 
 There are many features, enough for this to be a stand-alone game, ranging from guilds/organizations, to party system, single and multi-player missions, servers players can build and hack, wars between zones players can join and even be the president of, forums and blogs. And that is not even all.
 
@@ -109,7 +109,7 @@ You need a webserver (e.g. MAMP/WAMP/XAMPP) able to run PHP (tested with 7.3) an
 
 ![Screenshot](screens/setup.png)
 
-Visit `http://localhost/public_html/setup` - this may be different if you are using another port or directory structure, e.g. `http://localhost:8888/sr/public_html/setup` and follow the setup process
+Visit `https://localhost/public_html/setup` - this may be different if you are using another port or directory structure, e.g. `http://localhost:8888/sr/public_html/setup` and follow the setup process
 
 ## Manual Setup
 
