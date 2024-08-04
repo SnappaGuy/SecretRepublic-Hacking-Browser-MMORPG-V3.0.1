@@ -16,7 +16,7 @@ Audio Trailer: https://www.youtube.com/watch?v=6thfiGb-b7c
 
 [Read about the journey of this project in this Medium article.](https://medium.com/@adrian.n/secret-republic-open-sourced-hacker-simulation-futuristic-rpg-browser-based-game-php-843d393cb9d7)
 
-# Table of contents
+# Table of Contents
 
 1. [Overview](#Overview)
 
@@ -97,7 +97,7 @@ https://github.com/nenuadrian/Secret-Republic-Hacker-Game-ORPBG-Alpha
 
 # Simple-Setup
 
-## Require steps
+## Required Steps
 
 You need a webserver (e.g. MAMP/WAMP/XAMPP) able to run PHP (tested with 7.3) and an MySQL database (LAMP stack).
 
@@ -105,13 +105,13 @@ You need a webserver (e.g. MAMP/WAMP/XAMPP) able to run PHP (tested with 7.3) an
 
 2. Create an empty Database in MySQL. For MAMP, you would go to `http://localhost:8888/phpMyAdmin5`
 
-## Semi-manual setup
+## Semi-Manual Setup
 
 ![Screenshot](screens/setup.png)
 
 Visit `http://localhost/public_html/setup` - this may be different if you are using another port or directory structure, e.g. `http://localhost:8888/sr/public_html/setup` and follow the setup process
 
-## Manual setup
+## Manual Setup
 
 1. Import `includes/install/DB.sql` to the database you have created.
 
@@ -121,7 +121,7 @@ Visit `http://localhost/public_html/setup` - this may be different if you are us
 
 4. Go to the `user_credentials` table and update the entry for your user, setting the column `group_id` to be `1`. This will make your account a full administrator. Log out and log back in.
 
-## Useful tips
+## Useful Tips
 
 You may need to manually execute the following SQL if you see a GROUP BY related error on the missions page:
 
@@ -129,7 +129,7 @@ You may need to manually execute the following SQL if you see a GROUP BY related
 SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 ```
 
-# Cron jobs
+# Cron Jobs
 
 https://en.wikipedia.org/wiki/Cron
 
@@ -186,7 +186,7 @@ Or use the control panel your host may provide.
 ![Screenshot](screens/11.jpg)
 
 
-# Framework details
+# Framework Details
 
 Sadly it was built from scratch, combining vanilla PHP, the Smarty template engine and a few libraries (composer.json). It makes use of Smarty caching.
 
@@ -209,21 +209,21 @@ Any variables `http://localhost/helloworld/hi?attach=2` would be passed in `$GET
 
 This all happens in `public_html/index.php`.
 
-## Creating new missions
+## Creating New Missions
 
 Please refer to the the GUIDES folder in this repository. In contains instructions of what can be used within the Mission descriptions to benefit from dynamic IP generation between missions and other useful instructions, tips and tricks.
 
-## Adding skills, ablitites or tutorial steps
+## Adding Skills, Ablitites or Tutorial Steps
 
 Check the `includes/constants` folder.
 
-### Tutorial steps
+### Tutorial Steps
 
 Modify `includes/constants/tutorial.php`.
 
 When adding or modifying a step also check if you need to add or modify a `tutorial_step_N_check` function in the same file, where N is the number of the step you have added or modified within `tutorial.php`.
 
-## New pages with minimal functionality
+## New Pages Having Minimal Functionality
 
 This is as simple as create a `.tpl` file in `templates/pages`.
 
@@ -237,7 +237,7 @@ As soon as it is created, the page will be available at `/pages/NAME` e.g. `http
 ./includes/vendor/phpunit/phpunit/phpunit tests
 ```
 
-# Sponsors and contributors
+# Sponsors and Contributors
 
 ## Contributors
 
