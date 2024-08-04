@@ -1,4 +1,4 @@
-# Secret Republic - Browser Based futuristic PHP hacker game - V3
+# SecretRepublic - Browser Based futuristic PHP hacker game .
 
 <p align="center">
 
@@ -8,9 +8,9 @@
 
 </p>
 
-Live Demo: https://secretrepublic-v3.nenuadrian.com
+Live Demo: https://secretrepublic.org [Beta Release]
 
-Hosted on recommended provider [DreamHost](https://mbsy.co/dreamhost/92571715).
+Hosted on recommended provider [AsuraHosting](https://clients.asurahosting.com/aff.php?aff=1483).
 
 Audio Trailer: https://www.youtube.com/watch?v=6thfiGb-b7c
 
