@@ -1,4 +1,4 @@
-# An MMORPG Browser Based Futuristic Hacker Game
+# SecretRepublic - MMORPG Browser Based Futuristic Hacker Game
 
 <p align="center">
 
